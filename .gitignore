@@ -97,6 +97,11 @@ x509.genkey
 
 # Kconfig presets
 all.config
+<<<<<<< HEAD
 
 # fetched Android config fragments
 android/configs/android-*.cfg
+=======
+qcom-cg.txt
+build.sh
+>>>>>>> 876268f7cc50 (Only compile the 16017 part of the device tree file, which is conducive to subsequent updates)

@@ -344,6 +344,8 @@ dtb-$(CONFIG_ARCH_MSM8909) += msm8909-pm8916-mtp.dtb \
 	msm8909-1gb-cdp.dtb \
 	apq8009-ext-codec-dragon.dtb \
 	apq8009-dragon.dtb
+	
+dtb-$(CONFIG_OPPO_COMMON_SOFT) += msm8953-mtp_16017.dtb
 
 ifeq ($(CONFIG_ARM64),y)
 always          := $(dtb-y)
