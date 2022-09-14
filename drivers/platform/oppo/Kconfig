@@ -12,6 +12,13 @@ config MACH_OPPO_MSM8940
 	select MACH_OPPO
 	help
 	  Support for MSM8940 OPPO variants
+	  
+config MACH_OPPO_MSM8953
+	bool "OPPO MSM8996"
+	depends on ARCH_MSM8953
+	select MACH_OPPO
+	help
+	  Support for MSM8953 OPPO variants
 
 menu "OPPO board selection"
 
@@ -20,5 +27,11 @@ config MACH_16061
 	select MACH_OPPO_MSM8940
 	help
 	  Support for A57 variants
+	  
+config MACH_16017
+	bool "R9s board"
+	select MACH_OPPO_MSM8953
+	help
+	  Support for R9s variants
 
 endmenu
